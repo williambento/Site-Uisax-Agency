@@ -1,0 +1,110 @@
+.headerdesktop{
+  background-color: var(--primary-color);
+}
+
+.headermobile{
+  background-color: var(--primary-color);
+}
+
+.headermobilesub{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  min-height: 10vh;
+  background-color: var(--primary-color);
+  font-family: 'Gotham Book';
+}
+
+.header{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  max-width: 1200px;
+  min-width: auto;
+  margin: 0 auto;
+  min-height: 10vh;
+  background-color: var(--primary-color);
+  font-family: 'Gotham Book';
+  padding: 0px 80px;
+}
+
+.page a{
+  padding-right: 30px;
+  text-decoration: none;
+  color: #fff;
+  transition: .3s;
+  font-family: 'Gotham Book', sans-serif;
+}
+
+.page a:hover{
+  scale: 1.1;
+  color: var(--secondary-color);
+}
+
+.page button{
+  font-family: 'Gotham Book', sans-serif;
+  width: 120px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 12px;
+  background-color: var(--secondary-color);
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  transition: .3s;
+}
+
+.page button:hover{
+  background-color: #fff;
+  scale: 1.1;
+  color: var(--secondary-color);
+}
+
+@media screen and (min-width: 768px) {
+  .headermobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .headerdesktop {
+    display: none;
+  }
+}
+
+.buttonn button{
+  font-family: 'Gotham Book', sans-serif;
+  width: 120px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 12px;
+  background-color: var(--secondary-color);
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  transition: .3s;
+}
+
+.buttonn button:hover{
+  background-color: #fff;
+  scale: 1.1;
+  color: var(--secondary-color);
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+
+.iconMenuBar button{
+  background-color: transparent;
+  border: none;
+}

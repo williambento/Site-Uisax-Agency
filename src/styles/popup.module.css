@@ -1,0 +1,42 @@
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--secondary-color);
+}
+
+.content{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.content a{
+    display: flex;
+    top: 0; /* Coloca o elemento no topo da página */
+    left: 0; /* Coloca o elemento no lado esquerdo da página */
+    text-decoration: none;
+    color: white;
+    font-family: "Gotham Book", sans-serif;
+    padding: 10px 20px;
+    transition: .3s;
+}
+
+.content a:hover{
+    color: var(--primary-color);
+}
+
+.imagenavbar{
+    display: flex;
+    top: 0; /* Coloca o elemento no topo da página */
+    left: 0; /* Coloca o elemento no lado esquerdo da página */
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px;
+    transition: .3s;
+}
+
+.imagenavbar:hover{
+    scale: 1.1;
+}
