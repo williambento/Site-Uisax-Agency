@@ -11,9 +11,10 @@
 
 .title{
     font-family: "PROXON", sans-serif;
-    font-size: 55px;
+    font-size: 50px;
     letter-spacing: 2px;
     margin-bottom: 30px;
+    margin-top: 100px;
 }
 
 .process {
@@ -29,7 +30,8 @@
 }
 
 .item {
-    /*border: 1px solid #000;*/
+    /*border: 1px solid var(--secondary-color);*/
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,6 +40,10 @@
     font-family: "Gotham Ligth", sans-serif;
     font-size: 14px;
     padding: 20px;
+    background: linear-gradient(to bottom, var(--primary-color), var(--accent-color)); /* Gradiente de cores */
+    background-size: 100% 200%; /* Define o tamanho do gradiente */
+    background-position: 0 0;   
+    transition: transform 0.3s ease; /* Configura a transição da animação */
 }
 
 .image{
@@ -51,15 +57,41 @@
     margin-bottom: -20px;
 }
 
+.bt button{
+    font-family: 'Gotham Book', sans-serif;
+    width: 250px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 12px;
+    background-color: var(--secondary-color);
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    transition: .3s;
+}
+
+
+.bt button:hover{
+    background-color: #fff;
+    scale: 1.1;
+    color: var(--secondary-color);
+}
+
 @media screen and (max-width: 768px) {
+
     .process {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Quebrará em mais colunas com base na largura */
-        gap: 10px; /* Espaçamento entre os itens */
+        /*gap: 10px;*/ /* Espaçamento entre os itens */
         width: 100%; /* Ocupará a largura total do contêiner pai */
         height: auto;
         margin-top: 25px;
-        margin-bottom: 50px;
+    }
+
+    .bt {
+        margin-top: -25px;
     }
 
     .title{

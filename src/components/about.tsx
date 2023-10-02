@@ -7,11 +7,6 @@ export default function About(){
     return(
         <div className={styles.geral}>
             <div className={styles.container}>
-                {/*
-                <div className={styles.titulo}>
-                    <Image src={hacker} alt="Imagem Sobre" height={650} width={650}></Image>
-                </div> 
-                */}
                 <div className={styles.texto}>
                         A UISAX é mais do que uma agência de design de logotipos; é um
                         sonho realizado e uma paixão transformada em realidade. Ao
