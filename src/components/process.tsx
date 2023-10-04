@@ -14,7 +14,7 @@ export default function Process(){
     return(
         <div className={styles.container}>
             <div className={styles.title}>
-                Processo de Criação
+                PROCESSO DE CRIAÇÃO
             </div>
             <div className={styles.process}>
                 <div className={styles.item}>

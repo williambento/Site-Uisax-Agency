@@ -9,7 +9,7 @@ import Image from "next/image";
 export default function Portfolio(){
     return(
         <div className={styles.portfolio}>
-            <h1>Portfolio</h1>
+            <h1>PORTFOLIO</h1>
             <div className={styles.projeto}>
                 <a href="" className={styles.btimg}>
                     <Image src={company} alt="FJ Company" width={200} height={200}/>

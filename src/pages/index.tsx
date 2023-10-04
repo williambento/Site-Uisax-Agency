@@ -9,7 +9,7 @@ import menuBar from './../../images/menubar.png'
 import Start from '@/components/home'
 import Portfolio from '@/components/portfolio'
 import Footer from '@/components/footer'
-import Depoimentos from '@/components/depoimentos'
+import Depositions from '@/components/depositions'
 import About from '@/components/about'
 import Process from '@/components/process'
 
@@ -71,6 +71,9 @@ export default function Home() {
       </section>
       <section id='portfolio'>
         <Portfolio/>
+      </section>
+      <section>
+        <Depositions/>
       </section>
       <section id='process'>
         <Process/>

@@ -17,6 +17,7 @@
     font-size: 55px;
     letter-spacing: 2px;
     color: var(--secondary-color);
+    font-weight: 600;
 }
 
 .portfolio button{

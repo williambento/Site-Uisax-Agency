@@ -8,7 +8,7 @@ export default function Start(){
         <div className={styles.content}>
             <div className={styles.subcontent}>
                 <div className={styles.text}>
-                    <h1> Seja <span className={styles.colorText}>bem vindo!</span> Veja um pouco do nosso trabalho. </h1>
+                    <h1> SEJA <span className={styles.colorText}>BEM VINDO!</span> VEJA UM POUCO DO NOSSO TRABALHO. </h1>
                     <p> Explore nosso portfólio. </p>
                     <button className={styles.buttonn}> CONTATO </button>
                 </div>
