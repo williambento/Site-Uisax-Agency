@@ -13,7 +13,7 @@ export default function Depositions(){
             </div>
             <div className={styles.depositions}>
                 <div className={styles.falas}>
-                    <Image src={juh} alt={""} width={200} height={200}></Image>
+                    <Image src={juh} alt={"juliana"} width={200} height={200}></Image>
                     <h1> Juliana Fontans - Sócia da OCKA System </h1>
                     <p>"Meu nome é Fernanda Oliveira e sou social da FJ Company.
                         Trabalhar com a equipe da UISAX foi uma experiência
@@ -26,7 +26,7 @@ export default function Depositions(){
                     </p>
                 </div>
                 <div className={styles.falas}>
-                    <Image src={feh} alt={""} width={200} height={200}></Image>
+                    <Image src={feh} alt={"fernanda"} width={200} height={200}></Image>
                     <h1> Fernanda Olliveira - Sócia da FJ Company </h1>
                     <p>"Me chamo Juliana Fontans e fiquei muito feliz com o
                         resultado que a UISAX proporcionou. Trabalhar com a equipe
