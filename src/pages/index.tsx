@@ -55,7 +55,7 @@ export default function Home() {
               width={30} height={30}></Image>
             </button>
           </div>
-          <Popup isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)}> </Popup>
+          {/*<Popup isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)}> </Popup>*/}
           <div className={styles.buttonn}>
             <a href="https://api.whatsapp.com/send?phone=5537999386357&text=Ol%C3%A1,%20tudo%20bem?">
               <button > ORÇAMENTO </button>
